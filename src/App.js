@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 >Search your favroite food Joints</h1>
+        <h1 >Welcome favroite food Joints</h1>
       </header>
       <Route exact path="/" component={CityItem} />
       <Route exact path="/:id" component={HomePage} />
